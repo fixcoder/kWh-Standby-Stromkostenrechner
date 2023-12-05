@@ -138,3 +138,23 @@ function kWhProJahr() {
 		EuroProJahr();
 	}
 }
+
+function StandByKostenRechnerW_C_h(iWatt, iCent, ih) {
+	if (iWatt != '') { document.getElementById('idWatt').value = iWatt; }
+	if (iCent != '') { document.getElementById('idCent').value = iCent; }
+	if (ih != '') { document.getElementById('idStunden').value = ih; }
+
+	document.getElementById('idkWhProJahr').value = "";
+
+	EuroProJahr();
+	window.location.href = "#MaiksStandbyStromkostenRechner";
+}
+
+function StandByKostenRechner_Watt(i_watt) {
+	document.getElementById('idWatt').value = i_watt;
+
+	document.getElementById('idkWhProJahr').value = "";
+
+	EuroProJahr();
+	window.location.href = "#MaiksStandbyStromkostenRechner";
+}
