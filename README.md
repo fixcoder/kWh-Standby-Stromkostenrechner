@@ -30,3 +30,7 @@ nach den voreingestellten Werten (Stromkosten und Betrieb).
 Es wird je nach dem ob der Energiebezug groß genug ist ... auch der Energieerzeuger AKW (Atomkraftwerk)
 angezeigt in ROT. Hierbei wird angenommen jeder dt. Haushalt hätte diesen "Energiehunger".
 
+Beispiel:
+(https://www.maikschulte.de/loesungen-klimawandel.php#MaiksStandbyStromkostenRechner)
+
+
