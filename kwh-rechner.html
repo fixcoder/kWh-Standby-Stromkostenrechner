@@ -14,6 +14,10 @@
 
     <a name="MaiksStandbyStromkostenRechner"></a>
     <h2>Maiks Standby-Stromkosten-Rechner (Version 2.2 AKW)</h2>
+    <span <span style="color:red; font-weight:bolder;">Merkregel: </span> <a href="Javascript:StandByKostenRechnerW_C_h('1','35.8','24');">
+    1 Watt Standyby Leistungsbezug über ein Jahr = 3 EUR Kosten/Jahr.</a>
+    <br />
+    <br />
 
     <table border="1">
         <tr>
@@ -23,9 +27,9 @@
                     <br />
 
                     <input class="formel" type="text" id="idformel" name="formel" value="365*5" size="5" maxlength="85" style="background:url(img/formeleintragen.png) no-repeat right top;">
- 
+
                     <button type="button" onclick="Javascript:calculate('idformel','idkWhProJahr');"><b>&nbsp;=&nbsp;</b></button>
- 
+
                     <input class="formel" type="text" id="idkWhProJahr" name="kWh" value="" size="5" maxlength="85" onclick="kWhProJahr()">
 
                     <br>
