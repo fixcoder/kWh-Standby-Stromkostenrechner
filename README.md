@@ -30,3 +30,17 @@ Beispiel:
 [homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksStandbyStromkostenRechner)
 
 Merkregel: 1 Watt = 3 EUR/Jahr
+
+
+## nützliche Javascript Funktionen im eigenen HTML code
+StandByKostenRechnerW_C_h(iWatt, iCent, ih);
+
+ - Das Formular wird gefüttert d.h. im vorhinein ausgefüllt und kann somit auf weitere Beispielsrechnungen hinweisen.
+ - Z.B. ein TV mit einer StandbyLeistung von 27 Watt erzeugt x Stromkosten im Jahr. (Überschreibt alle Werte im Formular für die Rechnung)
+ - Springt danach zur Formularansicht.
+
+
+StandByKostenRechner_Watt(i_watt);
+
+ - zB. ein TV mit einer StandbyLeistung von 27 Watt erzeugt x Stromkosten im Jahr. Bei bereits voreingestellten Werten im Formular.
+ - Springt danach zur Formularansicht.
