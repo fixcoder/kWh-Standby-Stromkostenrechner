@@ -1,19 +1,21 @@
 # kwh-rechner
+# Stromkosten-Rechner
 
-## Stromkosten-Rechner
+## Standby-Stromkosten-Rechner
 
 Kosten und Energie aus der Leistung in Watt berechnen.
+
 Gruß Maik
 
 ## Installation
-Dieser Standby Kosten Rechner wird mit einer Javascriptdatei und einer HTML Datei geliefert.
+Dieser Standby-Stromkosten-Kosten Rechner wird mit einer Javascriptdatei und mit einer HTML Datei geliefert.
 Beide Dateien sind in ein Verzeichnis abzulegen. Die HTML Datei im Browser laden/starten.
 
 ## Berechnungs- Variante 1)
 Nun wird die IST Leistung (Watt) abgefragt.
-(Kosten Cent/kWh wird voreingestellt, sowie auch die Betriebszeit oder StandbyZeit = 24h an 365 Tagen).
+(Kosten Cent/kWh wird voreingestellt, sowie auch die Betriebszeit oder StandbyZeit = 24h an 365 Tagen im Jahr).
 Hiernach wird der Leistungspreis berechnet.
-(Der Arbeitspreis d.h. die Grundgebühr des Stromversorgers (ca.13,9 EUR/Monat) wird in der Rechnung nicht betrachtet. Siehe auch Anmerkung.)
+(Die Grundgebühr des Stromversorgers (ca.13,9 EUR/Monat) wird in der Rechnung nicht betrachtet. Siehe auch Anmerkung.)
 
 Jetzt ist der jährliche Strompreis abschätzbar.
 
@@ -36,11 +38,12 @@ Merkregel: 1 Watt = 3 EUR/Jahr
 StandByKostenRechnerW_C_h(iWatt, iCent, ih);
 
  - Das Formular wird gefüttert d.h. im vorhinein ausgefüllt und kann somit auf weitere Beispielsrechnungen hinweisen.
- - Z.B. ein TV mit einer StandbyLeistung von 27 Watt erzeugt x Stromkosten im Jahr. (Überschreibt alle Werte im Formular für die Rechnung)
+ Z.B. ein TV mit einer StandbyLeistung von 27 Watt erzeugt einen um 7 EUR höheren monatl. Abschlag. (ca 85 EUR Stromkosten bei 35,8 Cent/kWh)
+(Überschreibt alle Werte im Formular für die Rechnung)
  - Springt danach zur Formularansicht.
 
 
 StandByKostenRechner_Watt(i_watt);
 
- - zB. ein TV mit einer StandbyLeistung von 27 Watt erzeugt x Stromkosten im Jahr. Bei bereits voreingestellten Werten im Formular.
+ - Z.B. ein TV mit einer StandbyLeistung von 27 Watt erzeugt ca. 85 Stromkosten im Jahr. Bei bereits voreingestellten Werten im Formular.
  - Springt danach zur Formularansicht.
