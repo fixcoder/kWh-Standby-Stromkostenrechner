@@ -2,73 +2,77 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
-
-    <script language="javascript" type="text/javascript" src="StandbyKostenRechner.js"></script>
-
+    <meta charset="utf-8"/>
+    <title>Maiks Standby-Stromkosten-Rechner (Version 2.2 AKW)</title>
+    <script type="text/javascript" src="StandbyKostenRechner.js"></script>
 </head>
 <body>
 
 
-
-    <a name="MaiksStandbyStromkostenRechner"></a>
-    <h2>Maiks Standby-Stromkosten-Rechner (Version 2.2 AKW)</h2>
-    <span <span style="color:red; font-weight:bolder;">Merkregel: </span> <a href="Javascript:StandByKostenRechnerW_C_h('1','35.8','24');">
+<h2>Maiks Standby-Stromkosten-Rechner (Version 2.2 AKW)</h2>
+<span style="color:red; font-weight:bolder;">Merkregel: </span> <a
+        href="Javascript:StandByKostenRechnerW_C_h('1','35.8','24');">
     1 Watt Standyby Leistungsbezug über ein Jahr = 3 EUR Kosten/Jahr.</a>
-    <br />
-    <br />
+<br/>
+<br/>
 
-    <table border="1">
-        <tr>
-            <td>
-                <form>
-                    <label id="LidkWh" for="kWh">Energie in <u>kWh</u> auf die vorgegebenen Stunden in Watt verteilen:</label>
-                    <br />
+<table border="1">
+    <tr>
+        <td>
+            <form>
+                <label id="LidkWh" for="kWh">Energie in <u>kWh</u> auf die vorgegebenen Stunden in Watt
+                    verteilen:</label>
+                <br/>
 
-                    <input class="formel" type="text" id="idformel" name="formel" value="365*5" size="5" maxlength="85" style="background:url(img/formeleintragen.png) no-repeat right top;">
+                <input class="formel" type="text" id="idformel" name="formel" value="365*5" size="5" maxlength="85">
 
-                    <button type="button" onclick="Javascript:calculate('idformel','idkWhProJahr');"><b>&nbsp;=&nbsp;</b></button>
+                <button type="button" onclick="calculate('idformel','idkWhProJahr');"><b>&nbsp;=&nbsp;</b>
+                </button>
 
-                    <input class="formel" type="text" id="idkWhProJahr" name="kWh" value="" size="5" maxlength="85" onclick="kWhProJahr()">
+                <input class="formel" type="text" id="idkWhProJahr" name="kWh" value="" size="5" maxlength="85"
+                       onclick="kWhProJahr()">
+                <br>
 
-                    <br>
+                <label id="LidWatt" for="Watt">kWh über den Ger&auml;teverbrauch in <u>Watt</u> errechnen.</label>
+                <br/>
+                <input type="number" id="idWatt" name="Watt" value="10" min="1" max="3500" step="1" size="8"
+                       onclick="clickWatt_EuroProJahr()">
+                <br/>
+                <label for="Cent">
+                    Stromkosten in <u>Cent</u> pro kWh
+                    <a href="Javascript:StandByKostenRechnerW_C_h('10','35.8','24');">&#10008; Reset 10 Watt</a>&nbsp;&nbsp;
+                    <a href="Javascript:StandByKostenRechnerW_C_h('','35.8','');">(35.8 ct/kWh )</a>
+                    <a href="Javascript:StandByKostenRechnerW_C_h('','40.9','');">(40.9 ct/kWh )</a>
+                    <a href="Javascript:StandByKostenRechnerW_C_h('','49','');">(E.ON 49 ct/kWh )</a>
 
+                    <br>(<a href="https://green-planet-energy.de/privatkunden/oekostrom/tarif-oekostrom-aktiv.html"
+                            target="greenpeace">Hier klicken f&uuml;r akt. Tarif &Ouml;kostrom von
+                    green-planet-energy.de vormals Greenpeace-Energy</a>)
+                </label>
+                <br/>
+                <input type="number" id="idCent" name="Cent" value="35.80" min="20" max="99" step="1" size="10"
+                       onclick="EuroProJahr()">
+                <br/>
+                <label id="LidBetriebsstunden" for="Stunden">Betrieb oder Standbybetrieb in <u>Stunden</u> an jedem Tag
+                    im Jahr</label>
+                <br/>
+                <input type="number" id="idStunden" name="Stunden" value="24" min="1" size="10" max="24" maxlength="8"
+                       step="1" onclick="EuroProJahr()">
+                <br/>
 
-                    <label id="LidWatt" for="Watt">kWh über den Ger&auml;teverbrauch in <u>Watt</u> errechnen.</label>
-                    <br />
-                    <input type="number" id="idWatt" name="Watt" value="10" min="1" max="3500" step="1" size="8" onclick="clickWatt_EuroProJahr()">
-                    <br />
-                    <label for="Cent">
-                        Stromkosten in <u>Cent</u> pro kWh
-                        <a href="Javascript:StandByKostenRechnerW_C_h('10','35.8','24');">&#10008; Reset 10 Watt</a>&nbsp;&nbsp;
-                        <a href="Javascript:StandByKostenRechnerW_C_h('','35.8','');">(35.8 ct/kWh )</a>
-                        <a href="Javascript:StandByKostenRechnerW_C_h('','40.9','');">(40.9 ct/kWh )</a>
-                        <a href="Javascript:StandByKostenRechnerW_C_h('','49','');">(E.ON 49 ct/kWh )</a>
+                <label id="LidStromkosten" for="Kosten">Stromkosten &euro; im Jahr (Grundpreis ca. 13,90 &euro;/Monat
+                    nicht mit einberechnet.)</label>
+                <br/>
+                <input type="text" id="idKosten" name="Kosten" value="" size="10" readonly onclick="EuroProJahr()">
+                <br/>
 
-                        <br>(<a href="https://green-planet-energy.de/privatkunden/oekostrom/tarif-oekostrom-aktiv.html" target="greenpeace">Hier klicken f&uuml;r akt. Tarif &Ouml;kostrom von green-planet-energy.de vormals Greenpeace-Energy</a>)
-                    </label>
-                    <br />
-                    <input type="number" id="idCent" name="Cent" value="35.80" min="20" max="99" step="1" size="10" onclick="EuroProJahr()">
-                    <br />
-                    <label id="LidBetriebsstunden" for="Stunden">Betrieb oder Standbybetrieb in <u>Stunden</u> an jedem Tag im Jahr</label>
-                    <br />
-                    <input type="number" id="idStunden" name="Stunden" value="24" min="1" size="10" max="24" maxlength="8" step="1" onclick="EuroProJahr()">
-                    <br />
+                <span id="BRD" style="backgroundcolor:lightgrey; color:grey;">= x kWh.</span>
 
-                    <label id="LidStromkosten" for="Kosten">Stromkosten &euro; im Jahr (Grundpreis ca. 13,90 &euro;/Monat nicht mit einberechnet.)</label>
-                    <br />
-                    <input type="text" id="idKosten" name="Kosten" value="" size="10" readonly onclick="EuroProJahr()">
-                    <br />
-
-
-                    <span id="BRD" style="backgroundcolor:lightgrey; color:grey;">= x kWh.</span>
-
-                </form>
-            </td>
-        </tr>
-    </table>
-    <br>
+            </form>
+        </td>
+    </tr>
+</table>
+<br>
 
 </body>
 </html>
