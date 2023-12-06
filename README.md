@@ -1,5 +1,4 @@
-# kwh-rechner
-# Stromkosten-Rechner
+# kwh-rechner (Standby-Stromkosten-Rechner)
 
 ## Standby-Stromkosten-Rechner
 
@@ -29,7 +28,7 @@ Es wird je nach dem ob der Energiebezug groß genug ist ... auch der Energieerze
 angezeigt in ROT. Hierbei wird angenommen jeder dt. Haushalt hätte diesen "Energiehunger" der angegebenen Watt.
 
 Beispiel:
-[homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksStandbyStromkostenRechner)
+[auf meiner homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksStandbyStromkostenRechner)
 
 Merkregel: 1 Watt = 3 EUR/Jahr
 
