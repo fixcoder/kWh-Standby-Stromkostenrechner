@@ -6,8 +6,6 @@ table.frmkWhRechner  {
 }
 
 input.formel {
-    font-size: inherit;
-    font-family: inherit;
     width: 42%;
     min-width: 42%;
     box-sizing: border-box;
@@ -16,8 +14,6 @@ input.formel {
 }
 
 input, select, textarea {
-    font-size: inherit;
-    font-family: inherit;
     width: 100%;
     min-width: 100%;
     box-sizing: border-box;
