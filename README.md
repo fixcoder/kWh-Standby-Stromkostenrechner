@@ -7,7 +7,7 @@ Kosten und Energie aus der Leistung in Watt berechnen.
 Gruß Maik
 
 ## Installation
-Dieser Standby-Stromkosten-Kosten Rechner wird mit einer Javascriptdatei und mit einer HTML Datei geliefert.
+Dieser Standby-Stromkosten-Kosten Rechner wird mit einer Javascriptdatei, CSS und mit einer HTML Datei geliefert.
 Beide Dateien sind in ein Verzeichnis abzulegen. Die HTML Datei im Browser laden/starten.
 
 ## Berechnungs- Variante 1)
