@@ -8,7 +8,7 @@ Gruß Maik
 
 ## Installation
 Dieser Standby-Stromkosten-Kosten Rechner wird mit einer Javascriptdatei, CSS und mit einer HTML Datei geliefert.
-Beide Dateien sind in ein Verzeichnis abzulegen. Die HTML Datei im Browser laden/starten.
+Die Dateien sind in ein gemeinsames Verzeichnis abzulegen. Die HTML Datei im Browser laden/starten.
 
 ## Berechnungs- Variante 1)
 Nun wird die IST Leistung (Watt) abgefragt.
