@@ -1,5 +1,5 @@
 # kwh-rechner (Standby-Stromkosten-Rechner)
-
+![grafik](https://github.com/fixcoder/kwh-rechner/assets/152872653/8f4c0b38-b0f7-41ce-a9de-c226ed71ad8e)
 ## Standby-Stromkosten-Rechner
 
 Kosten und Energie aus der Leistung in Watt berechnen.
@@ -31,9 +31,6 @@ Beispiel:
 [auf meiner homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksStandbyStromkostenRechner)
 
 Merkregel: 1 Watt = 3 EUR/Jahr
-
-![grafik](https://github.com/fixcoder/kwh-rechner/assets/152872653/8f4c0b38-b0f7-41ce-a9de-c226ed71ad8e)
-
 
 ## nützliche Javascript Funktionen im eigenen HTML code
 StandByKostenRechnerW_C_h(iWatt, iCent, ih);
