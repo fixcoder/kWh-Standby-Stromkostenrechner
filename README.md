@@ -1,5 +1,5 @@
 # kwh-rechner (Standby-Stromkosten-Rechner)
-![grafik](https://github.com/fixcoder/kwh-rechner/assets/152872653/8f4c0b38-b0f7-41ce-a9de-c226ed71ad8e)
+![grafik](https://github.com/fixcoder/kwh-rechner/assets/152872653/1bdd3cf3-5d20-41a1-9a56-f593489ab82c)
 ## Standby-Stromkosten-Rechner
 
 Kosten und Energie aus der Leistung in Watt berechnen.
