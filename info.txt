@@ -1,0 +1,8 @@
+
+
+15 Watt WLan-Router
+27 Watt Smart TV im Standby
+
+60 Watt Glühbirne (=heatballs Glühwendelbirne) (Austausch durch eine 4 Watt LED)
+40 Watt Glühleistung über 8 Stunden am Tag minus 3 Watt LED Leistung über 8 Stunden am Tag 
+Javascript:StandByKostenRechnerW_C_h('11','','24');
