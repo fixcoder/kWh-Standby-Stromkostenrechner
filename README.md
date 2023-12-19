@@ -51,5 +51,6 @@ StandByKostenRechner_Watt(i_watt);
 
 ## (hier auf github) hyperlink zur Berechnung 
 
-https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8
+[https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?**watt=27**&**stunden=24**&**cent=35.8**](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8)
+
 
