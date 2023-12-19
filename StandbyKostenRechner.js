@@ -190,6 +190,6 @@ function StandbyKostenRechner_param(str_parameter) {
 		// Parameterübergabe z.B.:  index.html?watt=200&stunden=2000&cent=33&formel=5*2&kwh=20000&kosten=Hallo Welt !
 		if (name.toLowerCase() == "kosten") { document.getElementById('idKosten').value = wert+" click mich zum Ergebnis"; }	
 	}
-	// EuroProJahr(); // direktes Berechnen nach Entfernen der // = Kommentarkennzeichnung.
+	EuroProJahr(); // direktes Berechnen nach Entfernen der // = Kommentarkennzeichnung.
 }
 /*  Erweiterung */
