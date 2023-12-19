@@ -48,3 +48,8 @@ StandByKostenRechner_Watt(i_watt);
 
  - Z.B. ein TV mit einer StandbyLeistung von 27 Watt erzeugt ca. 85 Stromkosten im Jahr. Bei bereits voreingestellten Werten im Formular.
  - Springt danach zur Formularansicht.
+
+## (hier auf github) hyperlink zur Berechnung 
+
+https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8
+
