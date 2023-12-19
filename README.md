@@ -56,23 +56,23 @@ StandByKostenRechner_Watt(i_watt);
 Beispiele:
 minimaler Standby Verbrauch (bei unterschiedlichen Tarifen Green-Planet-Energy und E.ON Dez 2023):
 
-[27 Watt an 24 Stunden an 365 Tagen im Jahr. Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8) = 84,67 €
+[27 Watt Verbrauch an 24 Stunden an 365 Tagen im Jahr mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8) = 84,67 €
 
-[27 Watt an 24 Stunden an 365 Tagen im Jahr. Strompreis **49,0 Cent/kWh**](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=49) = 115,89 € 
+[27 Watt Verbrauch an 24 Stunden an 365 Tagen im Jahr mit einem Strompreis von **49,0 Cent/kWh**](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=49) = 115,89 € 
 
 
 Alte Glühbirne gegenüber einer LED (gleiche Lichtleistung):
 
-[60 Watt Glühbirne eingeschaltet 8 Stunden an 365 Tagen im Jahr. Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=60&stunden=8&cent=35.8) = 62,72 €
+[60 Watt Glühbirne eingeschaltet an 8 Stunden eingeschaltet an 365 Tagen im Jahr mit mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=60&stunden=8&cent=35.8) = 62,72 €
 
-[4 Watt LED eingeschaltet 8 Stunden an 8 Tagen im Jahr. Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=4&stunden=8&cent=35.8) = 4,18 € 
+[4 Watt LED eingeschaltet an 8 Stunden eingeschaltet an 365 Tagen im Jahr mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=4&stunden=8&cent=35.8) = 4,18 € 
 
-[(60-4) Ersparrnis 56 Watt an 8 Stunden an 365 Tagen im Jahr. Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=56&stunden=8&cent=35.8) = 58,54 €
+[(60-4) Ersparrnis 56 Watt an 8 Stunden eingeschaltet an 365 Tagen im Jahr mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=56&stunden=8&cent=35.8) = 58,54 €
 
 
 Merkregel (1 Watt &#8792; 3 €):
 
-[1 Watt, 24 Stunden on jeden Tag im Jahr ( 35,8 Cent/kWh )](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8) = 3,14 €
+[1 Watt Verbrauch an 24 Stunden an jeden Tag im Jahr mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8) = 3,14 €
 
 
 
