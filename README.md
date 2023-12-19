@@ -70,9 +70,9 @@ Alte Glühbirne gegenüber einer LED (gleiche Lichtleistung):
 [(60-4) Ersparrnis 56 Watt an 8 Stunden an 365 Tagen im Jahr. Strompreis 38,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=56&stunden=8&cent=35.8) = 58,54 €
 
 
-Merkregel (1 Watt enspricht einem +Jahrespreis von ca. 3 €):
+Merkregel (1 Watt &#8792; 3 €):
 
-[1 Watt an 24 Stunden an 365 Tagen im Jahr. Strompreis 38,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8) = 3,14 €
+[1 Watt, 24 Stunden on jeden Tag im Jahr ( 38,8 Cent/kWh )](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8) = 3,14 €
 
 
 
