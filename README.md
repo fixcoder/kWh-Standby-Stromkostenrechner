@@ -1,10 +1,10 @@
 # kWh-Standby-Stromkosten-Rechner 
-![grafik](https://github.com/fixcoder/kwh-rechner/assets/152872653/1bdd3cf3-5d20-41a1-9a56-f593489ab82c)
+
+![grafik](https://github.com/fixcoder/kWh-Standby-Stromkostenrechner/assets/152872653/f1dfdf07-c727-4a40-a9f4-aee05b0c2891)
+
 ## kWh-Standby-Stromkosten-Rechner
 
-Kosten und Energie aus der Leistung in Watt berechnen.
-
-Gruß Maik
+Kosten und Energie aus der Leistung in Watt berechnen. Gruß Maik
 
 ## Installation
 Dieser Standby-Stromkosten-Kosten Rechner wird mit einer Javascriptdatei, CSS und mit einer HTML Datei geliefert.
@@ -28,7 +28,7 @@ Es wird je nach dem ob der Energiebezug groß genug ist ... auch der Energieerze
 angezeigt in ROT. Hierbei wird angenommen jeder dt. Haushalt hätte diesen "Energiehunger" der angegebenen Watt.
 
 Beispiel:
-[auf meiner homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksStandbyStromkostenRechner)
+[homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksStandbyStromkostenRechner)
 
 Merkregel: 1 Watt = 3 EUR/Jahr
 
