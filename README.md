@@ -1,6 +1,7 @@
 # kWh-Standby-Stromkosten-Rechner 
 
-![grafik](https://github.com/fixcoder/kWh-Standby-Stromkostenrechner/assets/152872653/f1dfdf07-c727-4a40-a9f4-aee05b0c2891)
+![grafik](https://github.com/fixcoder/kWh-Standby-Stromkostenrechner/assets/152872653/0e655c92-d652-48b6-bcd4-e39873e557c9)
+
 
 [hier clicken zum Ausprobieren](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/)
 
