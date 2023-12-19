@@ -1,4 +1,7 @@
-﻿function clickWatt_EuroProJahr()
+﻿
+//* kWh-Standby-Stromkostenrechner Maik Schulte in Dezember 2023 *//
+
+function clickWatt_EuroProJahr()
 {
 document.getElementById('idkWhProJahr').value = "";
 EuroProJahr();
@@ -14,7 +17,7 @@ var iBhAKW;
 
 document.getElementById("LidWatt").innerHTML = "Ger&auml;teverbrauch in <u>Watt</u>";
 LableText1 = "Betrieb oder Standbybetrieb in <u>Stunden</u> <span style='background-color:yellow;'> an jedem Tag im Jahr</span>";
-LableText2 = "Stromkosten &euro; <span style='background-color:yellow;'>im Jahr</span>  (Grundpreis ca. 13,90 &euro;/Monat nicht mit einberechnet.)";
+LableText2 = "Stromkosten &euro; <span style='background-color:yellow;'>im Jahr</span> (Grundpreis Stromzähler mME: 13,90 &euro;/Monat nicht berücksichtig.)";
 
 iWatt= HoleNummerVonInputFeldVMit("idWatt");
 
@@ -142,11 +145,51 @@ function StandByKostenRechnerW_C_h(iWatt, iCent, ih) {
 	window.location.href = "#MaiksStandbyStromkostenRechner";
 }
 
-function StandByKostenRechner_Watt(i_watt) {
-	document.getElementById('idWatt').value = i_watt;
+function StandByKostenRechner_Watt(iWatt) {
+	document.getElementById('idWatt').value = iWatt;
 
 	document.getElementById('idkWhProJahr').value = "";
 
 	EuroProJahr();
 	window.location.href = "#MaiksStandbyStromkostenRechner";
 }
+
+
+function opener(idx)
+{
+var doon;
+
+if (document.getElementById(idx).style.display=='none') { doon=1; }
+else { doon=0; }
+
+if (doon==1) { document.getElementById(idx).style.display ="inline"; }
+if (doon==0) { document.getElementById(idx).style.display ="none"; }
+}
+
+
+/*  Erweiterung / Parameterübergabe über den hyperlink zur Ergebnisanzeige */
+function StandbyKostenRechner_param(str_parameter) {
+	if (str_parameter == '') return;
+	var str_werte = str_parameter.slice(1);
+	var paare = str_werte.split("&");
+	var paar, name, wert;
+
+	for (var i = 0; i < paare.length; i++) {
+		paar = paare[i].split("=");
+		name = paar[0];
+		wert = paar[1];
+		name = unescape(name).replace("+", " ");
+		wert = unescape(wert).replace("+", " ");
+		this[name] = wert;
+		
+		if (name.toLowerCase() == "watt") { document.getElementById('idWatt').value = wert; }
+		if (name.toLowerCase() == "formel") { document.getElementById('idformel').value = wert; }
+		if (name.toLowerCase() == "cent") { document.getElementById('idCent').value = wert; }
+		if (name.toLowerCase() == "stunden") { document.getElementById('idStunden').value = wert; }		
+		if (name.toLowerCase() == "kwh") { document.getElementById('idkWhProJahr').value = wert; }	
+		// Parameterübergabe z.B.:  index.html?watt=200&stunden=2000&cent=33&formel=5*2&kwh=20000&kosten=Hallo Welt !
+		if (name.toLowerCase() == "kosten") { document.getElementById('idKosten').value = wert+" click mich zum Ergebnis"; }	
+	}
+	// EuroProJahr(); // direktes Berechnen nach Entfernen der // = Kommentarkennzeichnung.
+}
+/*  Erweiterung */

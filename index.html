@@ -7,14 +7,13 @@
 
     <script language="javascript" type="text/javascript" src="StandbyKostenRechner.js"></script>
     <link rel="stylesheet" type="text/css" href="StandbyKostenRechner.css" media="screen">
+
+
 </head>
 
 
-<body onload="Javascript:StandByKostenRechnerW_C_h('10','35.8','24');">
+<body>
     <a name="MaiksStandbyStromkostenRechner"></a>
-
-
-
 
     <table class="frmkWhRechner" border="1">
         <tr>
@@ -52,14 +51,14 @@
                         <br>(<a href="https://green-planet-energy.de/?kwk=Ug1TqqjjHdifVpJwOVAye2oaAZkKUCsJsI66q2roiqQRbZnkpbtP4fL09qhWHiWU" target="wechselnzugreenplanetenergy">Hier klicken f&uuml;r akt. Tarif &Ouml;kostrom von green-planet-energy.de vormals Greenpeace-Energy</a>)
                     </label>
                     <br />
-                    <input type="number" id="idCent" name="Cent" value="35.80" min="20" max="99" step="1" size="10" onclick="EuroProJahr()">
+                    <input type="number" id="idCent" name="Cent" inputmode="decimal" value="35.80" min="20" max="99" step="0.1" size="10" onclick="EuroProJahr()">
                     <br />
                     <label id="LidBetriebsstunden" for="Stunden">Betrieb oder Standbybetrieb in <u>Stunden</u> an jedem Tag im Jahr</label>
                     <br />
                     <input type="number" id="idStunden" name="Stunden" value="24" min="1" size="10" max="24" maxlength="8" step="1" onclick="EuroProJahr()">
                     <br />
 
-                    <label id="LidStromkosten" for="Kosten">Stromkosten &euro; im Jahr (Grundpreis ca. 13,90 &euro;/Monat nicht mit einberechnet.)</label>
+                    <label id="LidStromkosten" for="Kosten">Stromkosten &euro; (Grundpreis Stromzähler mME: 13,90 &euro;/Monat nicht berücksichtig.)";</label>
                     <br />
                     <input type="text" id="idKosten" name="Kosten" value="" size="10" readonly onclick="EuroProJahr()">
                     <br />
@@ -72,11 +71,32 @@
         <tr>
             <td style="text-align: center; padding-top: 30px;" height="80px">
                 
-                <br /><a href="Javascript:StandByKostenRechnerW_C_h('1','35.8','24');">Merkregel: <b>1 Watt = 3 &euro;</b></a>
-                <br /><br /><a href="https://github.com/fixcoder/kWh-Standby-Stromkostenrechner" target="github">kWh-Standby-Stromkostenrechner auf github.com</a>
+                <br />Merkregel: <b>1 Watt = 3 &euro;</b>
+	            <br><br>
+			
+			<a href="javascript:opener('mehr')">... click zum Aufklappen</a><br>
+			<div id='mehr'  style='display:none;'>
+				<br /><br />
+				z.B.: Berechnung zum Standbyverbrauch <a href="Javascript:StandByKostenRechnerW_C_h('1','35.8','24');">1 Watt</b></a><br>
+				<a href="https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8&formel=365*4&kosten=z.B. Maiks minimaler Standby Verbrauch. ">Parameter&uuml;bergabe</a> an gehoosteten Rechner<br>
+				<br>
+				kWh-Standby-Stromkostenrechner direkt auf <a href="https://fixcoder.github.io/kWh-Standby-Stromkostenrechner" target="github">github.io ausf&uuml;hren !</a><br>	
+                <a href="https://github.com/fixcoder/kWh-Standby-Stromkostenrechner" target="github">Quellcode</a> auf github.com<br>
+                
+			</div>
             </td>
         </tr>
     </table>
-    <br>
+	
+	
+	
+<script type="text/javascript">
+<!-- kWh-Standby-Stromkostenrechner Maik Schulte in Dezember 2023
+/*  Erweiterung / Parameterübergabe über den hyperlink zur Ergebnisanzeige */
+if (window.location.search != '') { StandbyKostenRechner_param(window.location.search); } else { StandByKostenRechnerW_C_h('10', '35.8', '24'); }
+-->
+</script>
+<br>
+
 </body>
 </html>
