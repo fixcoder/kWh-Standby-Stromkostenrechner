@@ -63,9 +63,9 @@ minimaler Standby Verbrauch (bei unterschiedlichen Tarifen Green-Planet-Energy u
 
 Alte Glühbirne gegenüber einer LED (gleiche Lichtleistung):
 
-[60 Watt Glühbirne eingeschaltet an 8 Stunden eingeschaltet in jeder Nacht im Jahr mit mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=60&stunden=8&cent=35.8) = 62,72 €
+[60 Watt Glühbirne an 8 Stunden eingeschaltet in jeder Nacht im Jahr mit mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=60&stunden=8&cent=35.8) = 62,72 €
 
-[4 Watt LED eingeschaltet an 8 Stunden eingeschaltet in jeder Nacht im Jahr mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=4&stunden=8&cent=35.8) = 4,18 € 
+[4 Watt LED an 8 Stunden eingeschaltet in jeder Nacht im Jahr mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=4&stunden=8&cent=35.8) = 4,18 € 
 
 [(60-4) Ersparrnis 56 Watt an 8 Stunden eingeschaltet in jeder Nacht im Jahr mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=56&stunden=8&cent=35.8) = 58,54 €
 
