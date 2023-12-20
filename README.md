@@ -20,7 +20,11 @@ Die Dateien sind in ein gemeinsames Verzeichnis abzulegen. Die HTML Datei im Bro
 Nun wird die IST Leistung (Watt) abgefragt.
 (Kosten Cent/kWh wird voreingestellt, sowie auch die Betriebszeit oder StandbyZeit = 24h an 365 Tagen im Jahr).
 Hiernach wird der Leistungspreis berechnet.
-(Die Grundgebühr des Stromversorgers (ca.13,9 EUR/Monat) wird in der Rechnung nicht betrachtet. Siehe auch Anmerkung.)
+
+Die Grundgebühr des Stromversorgers 
+- ca. 13,9 EUR/Monat für einen mME Zähler = Moderne Messeinrichtung
+- ca. 8,90 EUR/Monat für den alten schwarzen Drehscheiben-\Ferraris-Zähler
+wird in der Rechnung nicht betrachtet. Siehe auch Anmerkung.
 
 Jetzt ist der jährliche Strompreis abschätzbar.
 
