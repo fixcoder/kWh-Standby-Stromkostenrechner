@@ -84,7 +84,7 @@ Unterschied: [31,22 € / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkos
 
 Ersparrnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=56&stunden=8&cent=35.8)
 
-(z.B.: https://amzn.eu/d/cBUhcKR)
+(z.B.: amzn.eu/d/cBUhcKR)
 
 #### Merkregel (1 Watt &#8792; 3 €):
 
