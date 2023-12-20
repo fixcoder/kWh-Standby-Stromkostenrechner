@@ -9,6 +9,9 @@
 
 Kosten und Energie aus der Leistung in Watt berechnen. Gruß Maik
 
+Merkregel: 1 Watt = 3 EUR/Jahr
+
+
 ## Installation
 Dieser Standby-Stromkosten-Kosten Rechner wird mit einer Javascriptdatei, CSS und mit einer HTML Datei geliefert.
 Die Dateien sind in ein gemeinsames Verzeichnis abzulegen. Die HTML Datei im Browser laden/starten.
@@ -33,8 +36,6 @@ angezeigt in ROT. Hierbei wird angenommen jeder dt. Haushalt hätte diesen "Ener
 Beispiel:
 [homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksStandbyStromkostenRechner)
 
-Merkregel: 1 Watt = 3 EUR/Jahr
-
 ## nützliche Javascript Funktionen im eigenen HTML code
 StandByKostenRechnerW_C_h(iWatt, iCent, ih);
 
@@ -53,26 +54,26 @@ StandByKostenRechner_Watt(i_watt);
 
 [https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?**watt=27**&**stunden=24**&**cent=35.8**](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8)
 
-Beispiele:
-minimaler Standby Verbrauch (bei unterschiedlichen Tarifen Green-Planet-Energy und E.ON Dez 2023):
+### Beispiele:
+#### minimaler Standby Verbrauch (bei unterschiedlichen Tarifen Green-Planet-Energy und E.ON Dez 2023):
 
-[27 Watt Verbrauch an 24 Stunden an jedem Tag im Jahr (&#8792;24/7/365) mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8) = 84,67 € Green-Planet-Energy
+[27 Watt Verbrauch an 24 Stunden an jedem Tag im Jahr (&#8792;24/7/365) und Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8) = 84,67 € Green-Planet-Energy
 
-[27 Watt Verbrauch an 24 Stunden an jedem Tag im Jahr (&#8792;24/7/365) mit einem Strompreis von **49,0 Cent/kWh**](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=49) = 115,89 € E.ON
-
-
-Alte Glühbirne gegenüber einer LED (gleiche Lichtleistung):
-
-[60 Watt Glühbirne an 8 Stunden eingeschaltet in jeder Nacht im Jahr mit mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=60&stunden=8&cent=35.8) = 62,72 €
-
-[4 Watt LED an 8 Stunden eingeschaltet in jeder Nacht im Jahr mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=4&stunden=8&cent=35.8) = 4,18 € 
-
-[(60-4) Ersparrnis 56 Watt an 8 Stunden eingeschaltet in jeder Nacht im Jahr mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=56&stunden=8&cent=35.8) = 58,54 €
+[27 Watt Verbrauch an 24 Stunden an jedem Tag im Jahr (&#8792;24/7/365) und E.ON Strompreis **49,0 Cent/kWh**](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=49) = 115,89 € E.ON
 
 
-Merkregel (1 Watt &#8792; 3 €):
+#### Alte Glühbirne gegenüber einer LED (gleiche Lichtleistung):
 
-[1 Watt Verbrauch 24/7/365 im Jahr mit einem Strompreis von 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8) = 3,14 €
+[60 Watt Glühbirne 8 Stunden eingeschaltet in jeder Nacht im Jahr und  Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=60&stunden=8&cent=35.8) = 62,72 €
+
+[4 Watt LED 8 Stunden eingeschaltet in jeder Nacht im Jahr und Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=4&stunden=8&cent=35.8) = 4,18 € 
+
+[(60-4) Ersparrnis 56 Watt 8 Stunden eingeschaltet in jeder Nacht im Jahr und Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=56&stunden=8&cent=35.8) = 58,54 €
+
+
+#### Merkregel (1 Watt &#8792; 3 €):
+
+[1 Watt Verbrauch 24/7/365 im Jahr und Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8) = 3,14 €
 
 
 
