@@ -24,7 +24,7 @@ Hiernach wird der Leistungspreis berechnet.
 Die Grundgebühr des Stromversorgers 
 - ca. 13,9 EUR/Monat für einen mME Zähler = Moderne Messeinrichtung
 - ca. 8,90 EUR/Monat für den alten schwarzen Drehscheiben-\Ferraris-Zähler
-- 
+
 wird in der Rechnung nicht betrachtet. Siehe auch Anmerkung.
 
 Jetzt ist der jährliche Strompreis abschätzbar.
