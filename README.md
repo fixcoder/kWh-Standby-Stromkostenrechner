@@ -69,7 +69,7 @@ Unterschied: [31,22 €](https://fixcoder.github.io/kWh-Standby-Stromkostenrechn
 
 [4 Watt LED 8 Stunden eingeschaltet in jeder Nacht im Jahr und Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=4&stunden=8&cent=35.8) = 4,18 € 
 
-[Ersparrnis 58.54 €](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=56&stunden=8&cent=35.8)
+Ersparrnis: [58.54 €](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=56&stunden=8&cent=35.8)
 
 
 #### Merkregel (1 Watt &#8792; 3 €):
