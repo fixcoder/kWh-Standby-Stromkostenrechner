@@ -55,12 +55,13 @@ StandByKostenRechner_Watt(i_watt);
 [https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?**watt=27**&**stunden=24**&**cent=35.8**](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8)
 
 ### Beispiele:
-#### minimaler Standby Verbrauch (bei unterschiedlichen Tarifen Green-Planet-Energy und E.ON Dez 2023):
+#### minimaler Standby Verbrauch (Tarif:Green-Planet-Energy und E.ON in Dez 2023):
 
-[27 Watt Verbrauch an 24 Stunden an jedem Tag im Jahr (&#8792;24/7/365) und Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8) = 84,67 € Green-Planet-Energy
+[27 Watt Verbrauch an 24 Stunden an jedem Tag im Jahr (&#8792;24/7/365) und Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8) = 84,67 € **Green-Planet-Energy**
 
-[27 Watt Verbrauch an 24 Stunden an jedem Tag im Jahr (&#8792;24/7/365) und E.ON Strompreis **49,0 Cent/kWh**](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=49) = 115,89 € E.ON
+[27 Watt Verbrauch an 24 Stunden an jedem Tag im Jahr (&#8792;24/7/365) und E.ON Strompreis **49,0 Cent/kWh**](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=49) = 115,89 € **E.ON**
 
+Unterschied: [31,22 €](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=13.2)
 
 #### Alte Glühbirne gegenüber einer LED (gleiche Lichtleistung):
 
