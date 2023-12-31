@@ -29,6 +29,12 @@ wird in der Rechnung nicht betrachtet. Siehe auch Anmerkung.
 
 Jetzt ist der jährliche Strompreis abschätzbar.
 
+## Berechnungs- Variante 1.2)
+
+Wird eine Zeit > 24 Stunden angegeben, dann wird umgeschaltet auf Betriebszeit 
+(d.h. hier wird NICHT auf die Laufzeit auf ein Jahr hochgerechnet) sondern nur die angegebene Betriebszeit.
+
+
 ## Berechnungs- Variante 2)
 Auch kann in der ersten Zeile eine kl. math. Rechnung durchgeführt werden. Exemplarisch z.B. einen
 geschätzten Energiebezug bei einem 1-Personenhaushalt von 5 kWh/Tag. 365*5 (= click darauf) = 1825 kWh/ Jahr.
