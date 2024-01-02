@@ -9,7 +9,7 @@
 
 Kosten und Energie aus der Leistung in Watt berechnen. Gruß Maik
 
-(incl. Strompreisbremse (hierzu muß der Strompreis mit einem Tarif mit mehr als 40 Cent/kWh berechnet sein, dann werden die Vergünstigungen im Bemerkungsfeld angezeigt.)
+incl. Strompreisbremse (hierzu muß der Strompreis mit einem Tarif mit mehr als 40 Cent/kWh berechnet sein, dann werden die Vergünstigungen im Bemerkungsfeld angezeigt.)
 
 Merkregel: 1 Watt &#8792; 3 EUR/Jahr
 
