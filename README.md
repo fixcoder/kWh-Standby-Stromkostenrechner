@@ -107,11 +107,11 @@ Ersparrnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkos
 
 **... "Denn für bis zu 80 Prozent des Verbrauchs zahlt sie nur 40 ct/kWh, für 20 Prozent zahlt sie 50 ct/kWh." ...**
 
-Beispiel: Strompreisbreme bei E.ON mit 41,55 ct/kWh 
+Beispiel: Strompreisbreme bei E.ON mit **41,55 ct/kWh**
 
-Rechnnung: [kWh/Jahr] * 80% * 0,4 + [kWh/Jahr] * 20% * 0,4155 = Euro Jahresabrechnung 
+Rechnnung: [kWh/Jahr] * 80% * 0,4 + [kWh/Jahr] * 20% * **0,4155** = Euro Jahresabrechnung 
 
-oder:  [kWh/Jahr] * ( 0,32 + (Cent/kWh)/100 * 0,2 ) = Euro Jahresabrechnung
+oder:  [kWh/Jahr] * ( **&#8792; 40,31 Cent/kWh** ) = Euro Jahresabrechnung
 
 Zahlen werden im Bemerkungsfeld (unterhalb Jahrespreis) angezeigt, **wenn der Stromtarif mit mehr als 40 Cent/kWh** berechnet wurde.
 
