@@ -63,7 +63,29 @@ StandByKostenRechner_Watt(i_watt);
 
 [https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?**watt=27**&**stunden=24**&**cent=35.8**](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8)
 
-### Beispiele:
+# Anmerkungen
+
+## autom. AKW Berechnung
+Es wird je nachdem ob der Energiebezug groß genug ist ... auch der Energieerzeuger AKW (Atomkraftwerk)
+angezeigt in ROT. Hierbei wird angenommen jeder dt. Haushalt hätte diesen "Energiehunger" der angegebenen Watt.
+
+
+## autom. Strompreisbremse(n) 2023/2024 - Berechnung
+
+[faq-strompreisbremse.pdf von bundesregierung.de](https://www.bundesregierung.de/breg-de/themen/stromkostenrechner)
+
+**... "Denn für bis zu 80 Prozent des Verbrauchs zahlt sie nur 40 ct/kWh, für 20 Prozent zahlt sie 50 ct/kWh." ...**
+
+Beispiel: Strompreisbreme bei E.ON mit **41,55 ct/kWh**
+
+Rechnung: [kWh/Jahr] * 80% * 0,4 + [kWh/Jahr] * 20% * **0,4155** = Euro Jahresabrechnung 
+
+oder:  [kWh/Jahr] * ( **&#8792; 40,31 Cent/kWh** ) = Euro Jahresabrechnung
+
+Zahlen werden im Bemerkungsfeld (unterhalb Jahrespreis) angezeigt, **wenn der Stromtarif mit mehr als 40 Cent/kWh** berechnet wurde.
+
+
+# Beispiele:
 #### minimaler Standby Verbrauch (Tarif:Green-Planet-Energy und E.ON in Dez 2023):
 
 [27 Watt Verbrauch an 24 Stunden an jedem Tag im Jahr (&#8792;24/7/365) und Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8) 
@@ -95,30 +117,6 @@ Ersparnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkost
 [1 Watt Verbrauch 24/7/365 im Jahr und Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8)
 
 = 3,14 € / Jahr 
-
-# Anmerkungen
-
-## autom. AKW Berechnung
-Es wird je nachdem ob der Energiebezug groß genug ist ... auch der Energieerzeuger AKW (Atomkraftwerk)
-angezeigt in ROT. Hierbei wird angenommen jeder dt. Haushalt hätte diesen "Energiehunger" der angegebenen Watt.
-
-
-## autom. Strompreisbremse(n) 2023/2024 - Berechnung
-
-[faq-strompreisbremse.pdf von bundesregierung.de](https://www.bundesregierung.de/breg-de/themen/stromkostenrechner)
-
-**... "Denn für bis zu 80 Prozent des Verbrauchs zahlt sie nur 40 ct/kWh, für 20 Prozent zahlt sie 50 ct/kWh." ...**
-
-Beispiel: Strompreisbreme bei E.ON mit **41,55 ct/kWh**
-
-Rechnung: [kWh/Jahr] * 80% * 0,4 + [kWh/Jahr] * 20% * **0,4155** = Euro Jahresabrechnung 
-
-oder:  [kWh/Jahr] * ( **&#8792; 40,31 Cent/kWh** ) = Euro Jahresabrechnung
-
-Zahlen werden im Bemerkungsfeld (unterhalb Jahrespreis) angezeigt, **wenn der Stromtarif mit mehr als 40 Cent/kWh** berechnet wurde.
-
-
-
 
 
 
