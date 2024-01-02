@@ -83,7 +83,19 @@ strHelp = str_ikWh + " kWh. (+ " +str_eurAb+ " EUR monatl. Abschlag.)";
 // strHelp = ikWh.replace(".",",") + " kWh. (+ " +eurAb+ " EUR monatl. Abschlag.)";
 // document.getElementById("idkWhProJahr").value = ikWh.replace(".",",");
 
-
+		// Strompreisbremse
+		if (iCent > 40 ) 
+		{
+		str_StrPBr = ikWh * ( 0.32 + 0.2 * iCent/100 );
+		icStrPBr = (0.32 + 0.2 * iCent/100); 
+		strDiff = ikWh * iCent/100 - str_StrPBr;
+		
+		abStrPBr = eurAb - str_StrPBr/12; 
+		
+		strHelp = strHelp + "<br>(Strompreisbremse: " + str_StrPBr.toFixed(2) +" €  &#8792; " + icStrPBr.toFixed(4) + " Cent/kWh, bzw. -" + strDiff.toFixed(2) + " €";
+		strHelp = strHelp + " &#8792; -" + abStrPBr.toFixed(0) + " EUR monatl. Abschlag)";
+		}
+	
 // volle 24 standbybetriebsstunden täglich im Jahr
 if (((iAKW > 0.4) && (iStunden==24)) || ((iAKW > 0.4) && (iStunden==8760))) {document.getElementById("BRD").innerHTML = "= " + strHelp + " <br><span style='color:red;';>Bei 40,68 Mio. Haushalten in der BRD entspricht das " + iAKW.replace(".", ",") + " AKWs (mittl. AKW mit 1400 MegaWatt).</span>"}
 else
