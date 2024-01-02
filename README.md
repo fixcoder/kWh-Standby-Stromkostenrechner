@@ -104,6 +104,7 @@ Ersparrnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkos
 ## Anmerkung vorab zur Strompreisbremse
 
 z.B.: ... "Denn für bis zu 80 Prozent des Verbrauchs zahlt sie nur 40 ct/kWh, für 20 Prozent zahlt sie 50 ct/kWh." ...
+
 Strompreisbreme bei E.ON mit 41,55 ct/kWh ( [kWh/Jahr] * 80% * 0,4 + [kWh/Jahr] * 20% * 0,4155 = Euro Jahresrechnung)
 
 
