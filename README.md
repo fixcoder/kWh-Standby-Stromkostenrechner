@@ -45,6 +45,11 @@ Diese jährliche Größe [kWh] wird auf den Watt-Bezug umgerechnet (voreingestel
 Beispiel:
 [homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksStandbyStromkostenRechner)
 
+
+## Hyperlink zur Berechnung (hier auf github)
+
+[https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?**watt=27**&**stunden=24**&**cent=35.8**](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8)
+
 ## nützliche Javascript Funktionen im eigenen HTML code
 StandByKostenRechnerW_C_h(iWatt, iCent, ih);
 
@@ -59,9 +64,6 @@ StandByKostenRechner_Watt(i_watt);
  - Z.B. ein TV mit einer StandbyLeistung von 27 Watt erzeugt ca. 85 Stromkosten im Jahr. Bei bereits voreingestellten Werten im Formular.
  - Springt danach zur Formularansicht.
 
-## Hyperlink zur Berechnung (hier auf github)
-
-[https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?**watt=27**&**stunden=24**&**cent=35.8**](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8)
 
 # Anmerkungen
 
