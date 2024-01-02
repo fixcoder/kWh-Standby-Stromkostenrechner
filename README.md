@@ -42,10 +42,6 @@ Auch kann in der ersten Zeile eine kl. math. Rechnung durchgeführt werden. Exem
 geschätzten Energiebezug bei einem 1-Personenhaushalt von 5 kWh/Tag. 365*5 (= Klick auf das Gleichheitszeichen ) = 1825 kWh/ Jahr.
 Diese jährliche Größe [kWh] wird auf den Watt-Bezug umgerechnet (voreingestellte Werte werden berücksichtigt).
 
-## autom. weitere AKW Berechnung
-Es wird je nachdem ob der Energiebezug groß genug ist ... auch der Energieerzeuger AKW (Atomkraftwerk)
-angezeigt in ROT. Hierbei wird angenommen jeder dt. Haushalt hätte diesen "Energiehunger" der angegebenen Watt.
-
 Beispiel:
 [homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksStandbyStromkostenRechner)
 
@@ -100,7 +96,13 @@ Ersparnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkost
 
 = 3,14 € / Jahr 
 
-## Anmerkung Strompreisbremse(n) 2023/2024 - Berechnung
+
+## autom. AKW Berechnung
+Es wird je nachdem ob der Energiebezug groß genug ist ... auch der Energieerzeuger AKW (Atomkraftwerk)
+angezeigt in ROT. Hierbei wird angenommen jeder dt. Haushalt hätte diesen "Energiehunger" der angegebenen Watt.
+
+
+## autom. Strompreisbremse(n) 2023/2024 - Berechnung
 
 [faq-strompreisbremse.pdf von bundesregierung.de](https://www.bundesregierung.de/breg-de/themen/stromkostenrechner)
 
