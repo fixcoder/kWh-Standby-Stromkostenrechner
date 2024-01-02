@@ -5,7 +5,7 @@
 
 [Hier klicken zum Ausprobieren](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/)
 
-## kWh-Standby-Stromkosten-Rechner
+## kWh-Standby-Stromkosten-Rechner V2.2
 Kosten und Energie aus der Leistung in Watt berechnen. Gruß Maik
 
 Incl. Strompreisbremse (Hierzu muß der Strompreis mit einem Tarif mit mehr als 40 Cent/kWh berechnet sein, dann werden die Vergünstigungen im Bemerkungsfeld angezeigt.)
