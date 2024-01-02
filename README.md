@@ -9,7 +9,7 @@
 
 Kosten und Energie aus der Leistung in Watt berechnen. Gruß Maik
 
-(Die Strompreisbremse wird bisher nicht berücksichtigt)
+(incl. Strompreisbremse (hierzu muß der Strompreis mit einem Tarif mit mehr als 40 Cent/kWh berechnet sein, dann werden die Vergünstigungen im Bemerkungsfeld angezeigt.)
 
 Merkregel: 1 Watt &#8792; 3 EUR/Jahr
 
@@ -105,7 +105,11 @@ Ersparrnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkos
 
 z.B.: ... "Denn für bis zu 80 Prozent des Verbrauchs zahlt sie nur 40 ct/kWh, für 20 Prozent zahlt sie 50 ct/kWh." ...
 
-Strompreisbreme bei E.ON mit 41,55 ct/kWh ( [kWh/Jahr] * 80% * 0,4 + [kWh/Jahr] * 20% * 0,4155 = Euro Jahresrechnung)
+[entnommen aus faq-strompreisbremse.pdf von bundesregierung.de](https://www.bundesregierung.de/breg-de/schwerpunkte/entlastung-fuer-deutschland/strompreisbremse-2125002)
+
+Strompreisbreme bei E.ON mit 41,55 ct/kWh ( [kWh/Jahr] * 80% * 0,4 + [kWh/Jahr] * 20% * 0,4155 = Euro Jahresrechnung oder kWh*(0,32 + (Cent/kWh)/100 *0,2 )
+
+Zahlen werden im Bemerkungsfeld angezeigt, wenn der Stromtarif mit mehr als 40 Cent/kWh berechnet wurde.
 
 
 
