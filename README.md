@@ -43,7 +43,7 @@ geschätzten Energiebezug bei einem 1-Personenhaushalt von 5 kWh/Tag. 365*5 (= K
 Diese jährliche Größe [kWh] wird auf den Watt-Bezug umgerechnet (voreingestellte Werte werden berücksichtigt).
 
 ## autom. weitere AKW Berechnung
-Es wird je nach dem ob der Energiebezug groß genug ist ... auch der Energieerzeuger AKW (Atomkraftwerk)
+Es wird je nachdem ob der Energiebezug groß genug ist ... auch der Energieerzeuger AKW (Atomkraftwerk)
 angezeigt in ROT. Hierbei wird angenommen jeder dt. Haushalt hätte diesen "Energiehunger" der angegebenen Watt.
 
 Beispiel:
@@ -90,7 +90,7 @@ Unterschied: [31,22 € / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkos
 
 = 4,18 €  / Jahr 
 
-Ersparrnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=56&stunden=8&cent=35.8)
+Ersparnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=56&stunden=8&cent=35.8)
 
 (z.B.: Ultraeffiziente E27 Lampe)
 
@@ -108,7 +108,7 @@ Ersparrnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkos
 
 Beispiel: Strompreisbreme bei E.ON mit **41,55 ct/kWh**
 
-Rechnnung: [kWh/Jahr] * 80% * 0,4 + [kWh/Jahr] * 20% * **0,4155** = Euro Jahresabrechnung 
+Rechnung: [kWh/Jahr] * 80% * 0,4 + [kWh/Jahr] * 20% * **0,4155** = Euro Jahresabrechnung 
 
 oder:  [kWh/Jahr] * ( **&#8792; 40,31 Cent/kWh** ) = Euro Jahresabrechnung
 
