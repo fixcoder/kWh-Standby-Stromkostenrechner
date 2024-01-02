@@ -96,6 +96,7 @@ Ersparnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkost
 
 = 3,14 € / Jahr 
 
+# Anmerkungen
 
 ## autom. AKW Berechnung
 Es wird je nachdem ob der Energiebezug groß genug ist ... auch der Energieerzeuger AKW (Atomkraftwerk)
