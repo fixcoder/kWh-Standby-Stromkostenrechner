@@ -101,7 +101,7 @@ Ersparrnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkos
 
 = 3,14 € / Jahr 
 
-## Anmerkung vorab zur Strompreisbremse
+## Anmerkung Strompreisbremse(n) 2023/2024 - Berechnung
 
 [faq-strompreisbremse.pdf von bundesregierung.de](https://www.bundesregierung.de/breg-de/themen/stromkostenrechner)
 
