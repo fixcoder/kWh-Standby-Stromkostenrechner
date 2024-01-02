@@ -3,7 +3,7 @@
 ![3_Screenshot](https://github.com/fixcoder/kWh-Standby-Stromkostenrechner/assets/152872653/f1be8b9d-44f6-495c-bf8d-8864bb8366c5)
 
 
-[hier clicken zum Ausprobieren](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/)
+[Hier klicken zum Ausprobieren](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/)
 
 ## kWh-Standby-Stromkosten-Rechner
 Kosten und Energie aus der Leistung in Watt berechnen. Gruß Maik
