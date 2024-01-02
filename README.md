@@ -16,6 +16,13 @@ Merkregel: 1 Watt &#8792; 3 EUR/Jahr
 Dieser Standby-Stromkosten-Kosten Rechner wird mit einer Javascriptdatei, CSS und mit einer HTML Datei geliefert.
 Die Dateien sind in ein gemeinsames Verzeichnis abzulegen. Die HTML Datei im Browser laden/starten.
 
+## Anmerkung vorab zur Strompreisbremse
+
+z.B.: ... "Denn für bis zu 80 Prozent des Verbrauchs zahlt sie nur 40 ct/kWh, für 20 Prozent zahlt sie 50 ct/kWh." ...
+Strompreisbreme bei E.ON mit 41,55 ct/kWh ( [kWh/Jahr] * 80% * 0,4 + [kWh/Jahr] * 20% * 0,4155 = Euro Jahresrechnung)
+
+(Die Strompreisbremse wird bisher nicht berücksichtigt)
+
 ## Berechnungs- Variante 1)
 Nun wird die IST Leistung (Watt) abgefragt.
 (Kosten Cent/kWh wird voreingestellt, sowie auch die Betriebszeit oder StandbyZeit = 24h an 365 Tagen im Jahr).
