@@ -78,14 +78,11 @@ angezeigt in ROT. Hierbei wird angenommen jeder dt. Haushalt hätte diesen "Ener
 
 **... "Denn für bis zu 80 Prozent des Verbrauchs zahlt sie nur 40 ct/kWh, für 20 Prozent zahlt sie 50 ct/kWh." ...**
 
-Beispiel: Strompreisbreme bei E.ON mit **41,55 ct/kWh**
+Beispiel: Strompreisbreme bei E.ON mit **41,55 ct/kWh**   (**&#8792; 40,31 Cent/kWh** mit Strompreisbremse)
 
-Rechnung: [kWh/Jahr] * 80% * 0,4 + [kWh/Jahr] * 20% * **0,4155** = Euro Jahresabrechnung 
-
-oder:  [kWh/Jahr] * ( **&#8792; 40,31 Cent/kWh** ) = Euro Jahresabrechnung
+Rechnung: [kWh/Jahr] * 80/100 * 0,4 + [kWh/Jahr] * 20/100 * **0,4155** = Euro Jahresabrechnung 
 
 Zahlen werden im Bemerkungsfeld (unterhalb Jahrespreis) angezeigt, **wenn der Stromtarif mit mehr als 40 Cent/kWh** berechnet wurde.
-
 
 # Beispiele:
 #### minimaler Standby Verbrauch (Tarif:Green-Planet-Energy und E.ON in Dez 2023):
