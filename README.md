@@ -78,7 +78,7 @@ angezeigt in ROT. Hierbei wird angenommen jeder dt. Haushalt hätte diesen "Ener
 
 **... "Denn für bis zu 80 Prozent des Verbrauchs zahlt sie nur 40 ct/kWh, für 20 Prozent zahlt sie 50 ct/kWh." ...**
 
-Beispiel: Strompreisbreme bei E.ON mit **41,55 ct/kWh**   (**&#8792; 40,31 Cent/kWh** mit Strompreisbremse)
+Beispiel: Strompreisbreme bei E.ON mit **41,55 Cent/kWh**   (**&#8792; 40,31 Cent/kWh** mit Strompreisbremse)
 
 Rechnung: [kWh/Jahr] * (80/100 * 0,40 [€/kWh] + 20/100 * **0,4155 [€/kWh])** &#8792; x [€/Jahr] (Jahresabrechnung)
 
