@@ -17,7 +17,7 @@ var iBhAKW;
 
 document.getElementById("LidWatt").innerHTML = "Ger&auml;teverbrauch in <u>Watt</u>";
 LableText1 = "Betrieb oder Standbybetrieb in <u>Stunden</u> <span style='background-color:yellow;'> an jedem Tag im Jahr</span>";
-LableText2 = "Stromkosten &euro; <span style='background-color:yellow;'>im Jahr</span> (Grundpreis Stromzähler mME: 13,90 &euro;/Monat nicht berücksichtig.)";
+LableText2 = "Stromkosten &euro; <span style='background-color:yellow;'>im Jahr</span> (Grundpreis Stromzähler mME: 13,90 &euro;/Monat nicht berücksichtigt.)";
 
 iWatt= HoleNummerVonInputFeldVMit("idWatt");
 
