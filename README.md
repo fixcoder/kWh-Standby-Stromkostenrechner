@@ -80,7 +80,7 @@ angezeigt in ROT. Hierbei wird angenommen jeder dt. Haushalt hätte diesen "Ener
 
 Beispiel: Strompreisbreme bei E.ON mit **41,55 Cent/kWh**   (**&#8792; 40,31 Cent/kWh** mit Strompreisbremse)
 
-Rechnung: [kWh/Jahr] * (80/100 * 0,40 [€/kWh] + 20/100 * **0,4155 [€/kWh])** &#8792; x [€/Jahr] (Jahresabrechnung)
+Rechnung: E [kWh/Jahr] * (80/100 * 0,40 [€/kWh] + 20/100 * **0,4155 [€/kWh])** &#8792; x [€/Jahr] (Jahresabrechnung)
 
 Zahlen werden im Bemerkungsfeld (unterhalb Jahrespreis) angezeigt, **wenn der Stromtarif mit mehr als 40 Cent/kWh** berechnet wurde.
 
