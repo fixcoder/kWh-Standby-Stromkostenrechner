@@ -85,6 +85,10 @@ Rechnung: E [kWh/Jahr] * **(80/100 * 0,40 [€/kWh] + 20/100 * 0,4155 [€/kWh])
 Zahlen werden im Bemerkungsfeld (unterhalb Jahrespreis) angezeigt, **wenn der Stromtarif mit mehr als 40 Cent/kWh** berechnet wurde.
 
 # Beispiele:
+
+#### Standby Server:
+[150 Watt an 16 Stunden/Tag](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=150&stunden=16&cent=35.8) 
+
 #### minimaler Standby Verbrauch (Tarif:Green-Planet-Energy und E.ON in Dez 2023):
 
 [27 Watt Verbrauch an 24 Stunden an jedem Tag im Jahr (&#8792;24/7/365) und Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8) 
