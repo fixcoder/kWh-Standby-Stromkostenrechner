@@ -88,6 +88,8 @@ Zahlen werden im Bemerkungsfeld (unterhalb Jahrespreis) angezeigt, **wenn der St
 
 Standby Server: [150 Watt an 16 Stunden/Tag](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=150&stunden=16&cent=35.8) 
 
+Merkregel (1 Watt &#8792; 3 €): [1 Watt 24/7/365 und Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8) = 3,14 € / Jahr 
+
 #### minimaler Standby Verbrauch (Tarif:Green-Planet-Energy und E.ON in Dez 2023):
 
 [27 Watt 24/7/365 und 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8) = 84,67 € / Jahr **Green-Planet-Energy**
@@ -104,7 +106,7 @@ Unterschied: [31,22 € / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkos
 
 Ersparnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=56&stunden=8&cent=35.8) (z.B.: Ultraeffiziente E27 Lampe)
 
-Merkregel (1 Watt &#8792; 3 €): [1 Watt 24/7/365 und Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8) = 3,14 € / Jahr 
+
 
 
 
