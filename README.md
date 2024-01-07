@@ -34,8 +34,7 @@ Jetzt ist der jährliche Strompreis abschätzbar.
 ## Berechnungs- Variante 2)
 
 Wird eine Zeit > 24 Stunden angegeben, dann wird umgeschaltet auf Betriebszeit 
-(d.h. hier wird NICHT auf die Laufzeit auf ein Jahr Hochgerechnet) sondern nur die angegebene Betriebszeit.
-
+(d.h. hier wird NICHT auf die Laufzeit auf ein Jahr hochgerechnet).
 
 ## Berechnungs- Variante 3)
 Auch kann in der ersten Zeile eine kl. math. Rechnung durchgeführt werden. Exemplarisch z.B. einen
