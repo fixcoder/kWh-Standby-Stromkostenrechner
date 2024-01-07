@@ -14,7 +14,11 @@ var ikWh;
 var iAKW;
 var eurAb;
 var iBhAKW;
-
+	
+var str_StrPBr;
+var icStrPBr;
+var strDiff;	
+var abStrPBr;
 document.getElementById("LidWatt").innerHTML = "Ger&auml;teverbrauch in <u>Watt</u>";
 LableText1 = "Betrieb oder Standbybetrieb in <u>Stunden</u> <span style='background-color:yellow;'> an jedem Tag im Jahr</span>";
 LableText2 = "Stromkosten &euro; <span style='background-color:yellow;'>im Jahr</span> (Grundpreis Stromzähler mME: 13,90 &euro;/Monat nicht berücksichtigt.)";
@@ -90,7 +94,7 @@ strHelp = str_ikWh + " kWh. (+ " +str_eurAb+ " EUR monatl. Abschlag.)";
 		icStrPBr = (0.32 + 0.2 * iCent/100); 
 		strDiff = ikWh * iCent/100 - str_StrPBr;
 		
-		abStrPBr = eurAb - str_StrPBr/12; 
+		abStrPBr = strDiff/12; 
 		
 		strHelp = strHelp + "<br>(Strompreisbremse: " + str_StrPBr.toFixed(2) +" €  &#8792; " + icStrPBr.toFixed(4) + " Cent/kWh, bzw. -" + strDiff.toFixed(2) + " €";
 		strHelp = strHelp + " &#8792; -" + abStrPBr.toFixed(2) + " EUR monatl. Abschlag)";
