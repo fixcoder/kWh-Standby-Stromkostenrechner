@@ -6,21 +6,20 @@
 [Hier klicken zum Ausprobieren](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/)
 
 ## kWh-Standby-Stromkosten-Rechner V2.2
-Kosten und Energie aus der Leistung in Watt berechnen. Gruß Maik
+Kosten und Energie aus der Leistung [Watt] berechnen. Gruß Maik
 
-Incl. Strompreisbremse (Hierzu muß der Strompreis mit einem Tarif mit mehr als 40 Cent/kWh berechnet sein, dann werden die Vergünstigungen im Bemerkungsfeld angezeigt.)
+Incl. Strompreisbremse. Hierzu muß der Strompreis mit einem Tarif mit mehr als 40 Cent/kWh berechnet sein, 
+dann werden die Vergünstigungen im Bemerkungsfeld angezeigt.
 
 Merkregel: 1 Watt &#8792; 3 EUR/Jahr
-
 
 ## Installation
 Dieser Standby-Stromkosten-Kosten Rechner wird mit einer Javascriptdatei, einer CSS und mit einer HTML Datei geliefert.
 Die Dateien sind in ein gemeinsames Verzeichnis abzulegen. Die HTML Datei im Browser laden/starten.
 
-
 ## Berechnungs- Variante 1)
 Nun wird die Ist-Leistung (Watt) abgefragt.
-(Die Kosten [Cent/kWh] wird voreingestellt, sowie auch die Betriebszeit oder StandbyZeit = 24h an 365 Tagen im Jahr).
+Die Kosten [Cent/kWh] wird voreingestellt, sowie auch die Betriebszeit oder StandbyZeit = 24h an 365 Tagen im Jahr.
 Hiernach wird der Leistungspreis berechnet.
 
 Die Grundgebühr des Stromversorgers 
@@ -28,22 +27,19 @@ Die Grundgebühr des Stromversorgers
 - ca. 8,90 EUR/Monat für den alten schwarzen Drehscheiben-\Ferraris-Zähler
 
 wird in der Rechnung nicht betrachtet. Siehe auch Anmerkung.
-
 Jetzt ist der jährliche Strompreis abschätzbar.
 
 ## Berechnungs- Variante 2)
 
-Wird eine Zeit > 24 Stunden angegeben, dann wird umgeschaltet auf Betriebszeit 
-(d.h. hier wird NICHT auf die Laufzeit auf ein Jahr hochgerechnet).
+Wird eine Zeit > 24 Stunden angegeben, dann wird umgeschaltet auf Betriebszeit.
+D.h. hier wird NICHT auf die Laufzeit auf ein Jahr hochgerechnet.
 
 ## Berechnungs- Variante 3)
 Auch kann in der ersten Zeile eine kl. math. Rechnung durchgeführt werden. Exemplarisch z.B. einen
-geschätzten Energiebezug bei einem 1-Personenhaushalt von 5 kWh/Tag. 365*5 (= Klick auf das Gleichheitszeichen ) = 1825 kWh/ Jahr.
+geschätzten Energiebezug bei einem 1-Personenhaushalt von 5 kWh/Tag. 365*5 (Klick auf das Gleichheitszeichen!) = 1825 kWh/ Jahr.
 Diese jährliche Größe [kWh] wird auf den Watt-Bezug umgerechnet (voreingestellte Werte werden berücksichtigt).
 
-Beispiel:
-[homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksStandbyStromkostenRechner)
-
+Beispiel: [homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksStandbyStromkostenRechner)
 
 ## Hyperlink zur Berechnung (hier auf github)
 
@@ -57,19 +53,16 @@ StandByKostenRechnerW_C_h(iWatt, iCent, ih);
 (Überschreibt alle Werte im Formular für die Rechnung)
  - Springt danach zur Formularansicht.
 
-
 StandByKostenRechner_Watt(i_watt);
 
  - Z.B. ein TV mit einer StandbyLeistung von 27 Watt erzeugt ca. 85 Stromkosten im Jahr. Bei bereits voreingestellten Werten im Formular.
  - Springt danach zur Formularansicht.
-
 
 # Anmerkungen
 
 ## autom. AKW Berechnung
 Es wird je nachdem ob der Energiebezug groß genug ist ... auch der Energieerzeuger AKW (Atomkraftwerk)
 angezeigt in ROT. Hierbei wird angenommen jeder dt. Haushalt hätte diesen "Energiehunger" der angegebenen Watt.
-
 
 ## autom. Strompreisbremse(n) 2023/2024 - Berechnung
 
