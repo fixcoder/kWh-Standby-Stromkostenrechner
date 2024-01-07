@@ -11,7 +11,8 @@ Kosten und Energie aus der Leistung [Watt] berechnen. Gruß Maik
 Incl. Strompreisbremse. Hierzu muß der Strompreis mit einem Tarif mit mehr als 40 Cent/kWh berechnet sein, 
 dann werden die Vergünstigungen im Bemerkungsfeld angezeigt.
 
-Merkregel: 1 Watt &#8792; 3 EUR/Jahr
+Merkregel: [1 Watt &#8792; 3 EUR pro Jahr](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8) = 3,14 € / Jahr 
+
 
 ## Installation
 Dieser Standby-Stromkosten-Kosten Rechner wird mit einer Javascriptdatei, einer CSS und mit einer HTML Datei geliefert.
@@ -79,8 +80,6 @@ Zahlen werden im Bemerkungsfeld (unterhalb Jahrespreis) angezeigt, **wenn der St
 # Beispiele:
 
 Standby Server: [150 Watt an 16 Stunden/Tag](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=150&stunden=16&cent=35.8) 
-
-Merkregel (1 Watt &#8792; 3 €): [1 Watt 24/7/365 und Strompreis 35,8 Cent/kWh](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8) = 3,14 € / Jahr 
 
 #### minimaler Standby Verbrauch (Tarif:Green-Planet-Energy und E.ON in Dez 2023):
 
