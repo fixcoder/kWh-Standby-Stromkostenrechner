@@ -93,7 +93,7 @@ strHelp = str_ikWh + " kWh. (+ " +str_eurAb+ " EUR monatl. Abschlag.)";
 		abStrPBr = eurAb - str_StrPBr/12; 
 		
 		strHelp = strHelp + "<br>(Strompreisbremse: " + str_StrPBr.toFixed(2) +" €  &#8792; " + icStrPBr.toFixed(4) + " Cent/kWh, bzw. -" + strDiff.toFixed(2) + " €";
-		strHelp = strHelp + " &#8792; -" + abStrPBr.toFixed(0) + " EUR monatl. Abschlag)";
+		strHelp = strHelp + " &#8792; -" + abStrPBr.toFixed(2) + " EUR monatl. Abschlag)";
 		}
 	
 // volle 24 standbybetriebsstunden täglich im Jahr
