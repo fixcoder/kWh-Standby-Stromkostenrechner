@@ -8,7 +8,7 @@
 ## kWh-Standby-Stromkosten-Rechner V2.2
 Kosten und Energie aus der Leistung [Watt] berechnen. Gruß Maik
 
-Incl. Strompreisbremse. Hierzu muß der Strompreis mit einem Tarif mit mehr als 40 Cent/kWh berechnet sein, 
+Incl. Strompreisbremse. Hierzu muß der Strompreis mit einem Tarif mit mehr als 40 [Cent/kWh] berechnet sein, 
 dann werden die Vergünstigungen im Bemerkungsfeld angezeigt.
 
 Merkregel: [1 Watt &#8792; 3 EUR pro Jahr](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8)
@@ -19,13 +19,13 @@ Dieser Standby-Stromkosten-Kosten Rechner wird mit einer Javascriptdatei, einer 
 Die Dateien sind in ein gemeinsames Verzeichnis abzulegen. Die HTML Datei im Browser laden/starten.
 
 ## Berechnungs- Variante 1)
-Nun wird die Ist-Leistung (Watt) abgefragt.
-Die Kosten [Cent/kWh] wird voreingestellt, sowie auch die Betriebszeit oder StandbyZeit = 24h an 365 Tagen im Jahr.
+Nun wird die Ist-Leistung [Watt] abgefragt.
+Die Kosten [Cent/kWh] wird voreingestellt, sowie auch die Betriebszeit oder StandbyZeit = 24 Stunden an 365 Tagen im Jahr.
 Hiernach wird der Leistungspreis berechnet.
 
 Die Grundgebühr des Stromversorgers 
-- ca. 13,9 EUR/Monat für einen mME Zähler = Moderne Messeinrichtung
-- ca. 8,90 EUR/Monat für den alten schwarzen Drehscheiben-\Ferraris-Zähler
+- ca. 13,9 [EUR/Monat] für einen mME Zähler = Moderne Messeinrichtung
+- ca. 8,90 [EUR/Monat] für den alten schwarzen Drehscheiben-\Ferraris-Zähler
 
 wird in der Rechnung nicht betrachtet. Siehe auch Anmerkung.
 Jetzt ist der jährliche Strompreis abschätzbar.
@@ -36,8 +36,8 @@ Wird eine Zeit > 24 Stunden angegeben, dann wird umgeschaltet auf Betriebszeit.
 D.h. hier wird NICHT auf die Laufzeit auf ein Jahr hochgerechnet.
 
 ## Berechnungs- Variante 3)
-Auch kann in der ersten Zeile eine kl. math. Rechnung durchgeführt werden. Exemplarisch z.B. einen
-geschätzten Energiebezug bei einem 1-Personenhaushalt von 5 kWh/Tag. 365*5 (Klick auf das Gleichheitszeichen!) = 1825 kWh/ Jahr.
+Auch kann in der ersten Zeile (1. Eingabefeld des Formulars) eine kl. math. Rechnung durchgeführt werden. Exemplarisch z.B. einen
+geschätzten Energiebezug bei einem 1-Personenhaushalt von 5 kWh/Tag. 365 Tage/Jahr * 5 kWh/Tag (Klick auf das Gleichheitszeichen!) = 1825 kWh/Jahr.
 Diese jährliche Größe [kWh] wird auf den Watt-Bezug umgerechnet (voreingestellte Werte werden berücksichtigt).
 
 Beispiel: [homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksStandbyStromkostenRechner)
@@ -49,12 +49,16 @@ Beispiel: [homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksS
 ## nützliche Javascript Funktionen im eigenen HTML code
 StandByKostenRechnerW_C_h(iWatt, iCent, ih);
 
+`Beispiel: <a onclick="Javascript:StandByKostenRechnerW_C_h('27','35.8','24');">Standby TV</a>`
+
  - Das Formular wird im Vorhinein ausgefüllt und kann somit auf weitere Beispielsrechnungen hinweisen.
  Z.B. ein TV mit einer StandbyLeistung von 27 Watt erzeugt einen um 7 EUR höheren monatl. Abschlag. (ca 85 EUR Stromkosten bei 35,8 Cent/kWh)
 (Überschreibt alle Werte im Formular für die Rechnung)
  - Springt danach zur Formularansicht.
 
 StandByKostenRechner_Watt(i_watt);
+
+`Beispiel: <a onclick="Javascript:StandByKostenRechner_Watt('27');">27 Watt</a>`
 
  - Z.B. ein TV mit einer StandbyLeistung von 27 Watt erzeugt ca. 85 Stromkosten im Jahr. Bei bereits voreingestellten Werten im Formular.
  - Springt danach zur Formularansicht.
