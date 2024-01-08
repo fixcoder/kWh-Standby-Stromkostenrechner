@@ -49,7 +49,7 @@ Beispiel: [homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksS
 ## nützliche Javascript Funktionen im eigenen HTML code
 StandByKostenRechnerW_C_h(iWatt, iCent, ih);
 
-`Beispiel: <a onclick="Javascript:StandByKostenRechnerW_C_h('27','35.8','24');">Standby TV</a>`
+`<a onclick="Javascript:StandByKostenRechnerW_C_h('27','35.8','24');">Standby TV</a>` 
 
  - Das Formular wird im Vorhinein ausgefüllt und kann somit auf weitere Beispielsrechnungen hinweisen.
  Z.B. ein TV mit einer StandbyLeistung von 27 Watt erzeugt einen um 7 EUR höheren monatl. Abschlag. (ca 85 EUR Stromkosten bei 35,8 Cent/kWh)
@@ -59,6 +59,7 @@ StandByKostenRechnerW_C_h(iWatt, iCent, ih);
 StandByKostenRechner_Watt(i_watt);
 
 `Beispiel: <a onclick="Javascript:StandByKostenRechner_Watt('27');">27 Watt</a>`
+
 
  - Z.B. ein TV mit einer StandbyLeistung von 27 Watt erzeugt ca. 85 Stromkosten im Jahr. Bei bereits voreingestellten Werten im Formular.
  - Springt danach zur Formularansicht.
