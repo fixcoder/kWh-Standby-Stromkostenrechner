@@ -14,12 +14,6 @@ dann werden die Vergünstigungen im Bemerkungsfeld angezeigt.
 
 Merkregel: [1 Watt &#8792; 3 EUR pro Jahr](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8)
 
-Anmerkung:
-
-(...) "Der Standby-Verbrauch (auch Stillstandsverbrauch oder Leerlaufverlust) eines Geräts ist der Bedarf 
-an elektrischer Leistung oder Energie, der selbst dann anfällt, wenn das Gerät nicht benutzt wird, 
-sondern sich lediglich in Bereitschaft (in einem Energiesparmodus) befindet." (...) 
-[www.energie-lexikon.info](https://www.energie-lexikon.info/standby_verbrauch.html)
 
 
 ## Installation
@@ -73,6 +67,12 @@ StandByKostenRechner_Watt(i_watt);
  - Springt danach zur Formularansicht.
 
 # Anmerkungen
+
+(...) "Der Standby-Verbrauch (auch Stillstandsverbrauch oder Leerlaufverlust) eines Geräts ist der Bedarf 
+an elektrischer Leistung oder Energie, der selbst dann anfällt, wenn das Gerät nicht benutzt wird, 
+sondern sich lediglich in Bereitschaft (in einem Energiesparmodus) befindet." (...) 
+[www.energie-lexikon.info](https://www.energie-lexikon.info/standby_verbrauch.html)
+
 
 ## autom. AKW Berechnung
 Es wird je nachdem ob der Energiebezug groß genug ist ... auch der Energieerzeuger AKW (Atomkraftwerk)
