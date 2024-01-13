@@ -8,15 +8,18 @@
 ## kWh-Standby-Stromkosten-Rechner V2.2
 Kosten und Energie aus der Leistung [Watt] berechnen. Gruß Maik
 
-(...) "Der Standby-Verbrauch (auch Stillstandsverbrauch oder Leerlaufverlust) eines Geräts ist der Bedarf 
-an elektrischer Leistung oder Energie, der selbst dann anfällt, wenn das Gerät nicht benutzt wird, 
-sondern sich lediglich in Bereitschaft (in einem Energiesparmodus) befindet." (...) 
-[www.energie-lexikon.info](https://www.energie-lexikon.info/standby_verbrauch.html)
 
 Incl. Strompreisbremse. Hierzu muß der Strompreis mit einem Tarif mit mehr als 40 [Cent/kWh] berechnet sein, 
 dann werden die Vergünstigungen im Bemerkungsfeld angezeigt.
 
 Merkregel: [1 Watt &#8792; 3 EUR pro Jahr](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8)
+
+Anmerkung:
+
+(...) "Der Standby-Verbrauch (auch Stillstandsverbrauch oder Leerlaufverlust) eines Geräts ist der Bedarf 
+an elektrischer Leistung oder Energie, der selbst dann anfällt, wenn das Gerät nicht benutzt wird, 
+sondern sich lediglich in Bereitschaft (in einem Energiesparmodus) befindet." (...) 
+[www.energie-lexikon.info](https://www.energie-lexikon.info/standby_verbrauch.html)
 
 
 ## Installation
