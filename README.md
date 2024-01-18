@@ -37,6 +37,8 @@ Die Grundgebühr des Stromversorgers
 wird in der Rechnung nicht betrachtet. Siehe auch Anmerkung.
 Jetzt ist der jährliche Strompreis abschätzbar.
 
+Zur Vervollständigung ist der Arbeitspreis des Stromversorgers s.u. angefügt.
+
 ## Berechnungs- Variante 2)
 
 Wird eine Zeit > 24 Stunden angegeben, dann wird umgeschaltet auf Betriebszeit.
@@ -111,6 +113,44 @@ Unterschied: [31,22 € / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkos
 
 Ersparnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=56&stunden=8&cent=35.8) (z.B.: Ultraeffiziente E27 Lampe)
 
+# Arbeitspreis
+
+
+<table>
+<tr><td width="30%">Preisbestandteile Tarif Strom</td>
+    <td width="40px" class="c">Einheit</td>
+    <td width="40px" class="c">bisher</td>
+    <td width="40px" class="c">ab 1.3.2024</td>
+    <td width="25%"><div id="idposkWhJahr">Differenz</div></td>
+</tr>
+
+<tr style="background-color:lightgrey;"><td colspan=5>Arbeitspreis</td></tr> 
+
+<tr><td>Strombeschaffung und Vertrieb<br>(variiert je nach Stromanbieter)</td>
+<td >Cent/kWh</td>
+<td >15,662</td><td>15,662</td>
+<td></td>
+</tr>
+
+<tr><td>&nbsp;+&nbsp;<b>Netznutzungsentgelte</b></td>
+<td><b>Cent/kWh</b></td>
+<td><b>9,249</b></td>
+<td><b>11,636</b></td>
+<td><b>&#x0394; 2,387</b></td>
+</tr>
+
+<tr><td>&nbsp;+&nbsp;Stromsteuer (Ökosteuer)</td><td class="c">Cent/kWh</td><td class="b">2,050</td><td class="b">2,050</td><td></td></tr>
+<tr><td>&nbsp;+&nbsp;Paragraph-19-Umlage</td><td class="c">Cent/kWh</td><td class="b">0,417</td><td class="b">0,417</td><td></td></tr>
+<tr><td>&nbsp;+&nbsp;Offshore-Netzumlage</td><td class="c">Cent/kWh</td><td class="b">0,591</td><td class="b">0,591</td><td></td></tr>
+<tr><td>&nbsp;+&nbsp;KWK-Abgabe</td><td class="c">Cent/kWh</td><td class="b">0,357</td><td class="b">0,357</td><td></td></tr>
+<tr><td>&nbsp;+&nbsp;Konzessionsabgabe</td><td class="c">Cent/kWh</td><td class="b">1,758</td><td class="b">1,758</td><td></td></tr>
+
+<tr><td>Zwischensumme</td><td class="c">Cent/kWh</td><td class="b">= 30,084</td><td class="b">= 32,471</td><td></td></tr>
+    
+<tr><td>&nbsp;+&nbsp;Umsatzsteuer (19%)</td><td class="c">Cent/kWh</td><td class="b">5,716</td><td>6,169</td>
+<td><b>&#x0394; 0,453</b> zusätzliche Steuereinnahmen :-)</td></tr>
+<tr><td></td><td>Cent/kWh</td><td><b>&sum; 35,80</b></td><td ><b>&sum; 38,64</b></td><td>&sum;&#x0394; 2,84</td></tr> 
+</table> 
 
 
 
