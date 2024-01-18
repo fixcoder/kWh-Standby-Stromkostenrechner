@@ -22,6 +22,9 @@ In Dauerleistung, im Betrieb 24 Stunden an 365 Tagen im Jahr (Standby-Leistung -
 Dieser Standby-Stromkosten-Kosten Rechner wird mit einer Javascriptdatei, einer CSS und mit einer HTML Datei geliefert.
 Die Dateien sind in ein gemeinsames Verzeichnis abzulegen. Die HTML Datei im Browser laden/starten.
 
+Oder direkt hier bei GitHub starten ohne Installtion: [https://fixcoder.github.io/kWh-Standby-Stromkostenrechner](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8)
+
+
 ## Berechnungs- Variante 1)
 Nun wird die Ist-Leistung [Watt] abgefragt.
 Die Kosten [Cent/kWh] wird voreingestellt, sowie auch die Betriebszeit oder StandbyZeit = 24 Stunden an 365 Tagen im Jahr.
@@ -45,10 +48,6 @@ geschätzten Energiebezug bei einem 1-Personenhaushalt von 5 kWh/Tag. 365 Tage/J
 Diese jährliche Größe [kWh] wird auf den Watt-Bezug umgerechnet (voreingestellte Werte werden berücksichtigt).
 
 Beispiel: [homepage](https://www.maikschulte.de/loesungen-klimawandel.php#MaiksStandbyStromkostenRechner)
-
-## Hyperlink zur Berechnung (hier auf github)
-
-[https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?**watt=27**&**stunden=24**&**cent=35.8**](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=35.8)
 
 ## nützliche Javascript Funktionen im eigenen HTML code
 StandByKostenRechnerW_C_h(iWatt, iCent, ih);
