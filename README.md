@@ -14,7 +14,7 @@ dann werden die Vergünstigungen im Bemerkungsfeld angezeigt.
 
 Merkregel: [1 Watt &#8792; 3 EUR pro Jahr](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=1&stunden=24&cent=35.8)
 
-In Dauerleistung, im Betrieb 24 Stunden an 365 Tagen im Jahr (Standby-Leistung - LeerlaufverlustEnergiekosten)!
+Im Dauerbetrieb 24 Stunden an 365 Tagen im Jahr (Standbyleistung  &#8792; LeerlaufverlustEnergiekosten)!
 
 
 
