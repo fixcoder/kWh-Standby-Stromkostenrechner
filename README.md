@@ -126,7 +126,7 @@ Ersparnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkost
 
 <tr style="background-color:lightgrey;"><td colspan=5>Arbeitspreis</td></tr> 
 
-<tr><td>Strombeschaffung und Vertrieb<br>(variiert je nach Stromanbieter)</td>
+<tr><td>Strombeschaffung und Vertrieb (variiert je nach Stromanbieter)</td>
 <td >Cent/kWh</td>
 <td >15,662</td><td>15,662</td>
 <td></td>
@@ -149,7 +149,7 @@ Ersparnis: [58.54 €  / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkost
     
 <tr><td>&nbsp;+&nbsp;Umsatzsteuer (19%)</td><td class="c">Cent/kWh</td><td class="b">5,716</td><td>6,169</td>
 <td><b>&#x0394; 0,453</b> zusätzliche Steuereinnahmen :-)</td></tr>
-<tr><td></td><td>Cent/kWh</td><td><b>&sum; 35,80</b></td><td ><b>&sum; 38,64</b></td><td>&sum;&#x0394; 2,84</td></tr> 
+<tr><td>&sum;</td><td>Cent/kWh</td><td><b>&sum; 35,80</b></td><td ><b>&sum; 38,64</b></td><td>&sum;&#x0394; 2,84</td></tr> 
 </table> 
 
 
