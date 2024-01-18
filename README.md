@@ -103,7 +103,8 @@ Standby Server: [150 Watt an 16 Stunden/Tag](https://fixcoder.github.io/kWh-Stan
 
 [27 Watt 24/7/365 und E.ON Strompreis **49,0 Cent/kWh**](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=49) = 115,89 € / Jahr **E.ON**
 
-Unterschied: [31,22 € / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=13.2)
+Unterschied: [31,22 € / Jahr ](https://fixcoder.github.io/kWh-Standby-Stromkostenrechner/index.html?watt=27&stunden=24&cent=13.2)  - 17,03 € (Strompreisbremse) = 14,19 € > 0 !
+
 
 #### Alte Glühbirne gegenüber einer LED (gleiche Lichtleistung):
 
