@@ -101,7 +101,7 @@ strHelp = str_ikWh + " kWh. (+ " +str_eurAb+ " EUR monatl. Abschlag.)";
 		}
 	
 // volle 24 standbybetriebsstunden täglich im Jahr
-if (((iAKW > 0.4) && (iStunden==24)) || ((iAKW > 0.4) && (iStunden==8760))) {document.getElementById("BRD").innerHTML = "= " + strHelp + " <br><span style='color:red;';>Bei 40,903 Mio. Haushalten (2022) in der BRD entspricht das " + iAKW.replace(".", ",") + " AKWs (mittl. AKW mit 1400 MegaWatt).</span>"}
+if (((iAKW > 0.4) && (iStunden==24)) || ((iAKW > 0.4) && (iStunden==8760))) {document.getElementById("BRD").innerHTML = "= " + strHelp + " <br><span style='color:red;';>Bei 40,903 Mio. Haushalten in der BRD (2022) entspricht das " + iAKW.replace(".", ",") + " mittl. AKWs (1400 MegaWatt).</span>"}
 else
 {document.getElementById("BRD").innerHTML = strHelp; }
 		 
