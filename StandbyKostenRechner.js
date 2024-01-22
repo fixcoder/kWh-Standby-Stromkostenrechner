@@ -35,7 +35,7 @@ iStunden= HoleNummerVonInputFeldVMit("idStunden");
 if (iStunden<=24) {
 if (iStunden!=0) {
 i = (iWatt / 1000) * (iCent / 100) * (iStunden * 365);
-/* 1400 MegaWatt = 11 10^9 kWh 40,68 Haushalte*/
+/* 1400 MegaWatt = 11 10^9 kWh 40,903 Haushalte (in 2022)*/
 ikWh = (iWatt/1000*iStunden*365);
 document.getElementById("LidBetriebsstunden").innerHTML = LableText1;
 document.getElementById("LidStromkosten").innerHTML = LableText2;
@@ -66,7 +66,7 @@ i=i.replace("-",",");
 
 document.getElementById("idKosten").value = i;
 
-iAKW = ikWh*40.68/1.4/8760;
+iAKW = ikWh*40.903/1.4/8760;
 ikWh = ikWh.toFixed(2);
 
 eurAb = eurAb.toFixed(0);
@@ -101,7 +101,7 @@ strHelp = str_ikWh + " kWh. (+ " +str_eurAb+ " EUR monatl. Abschlag.)";
 		}
 	
 // volle 24 standbybetriebsstunden täglich im Jahr
-if (((iAKW > 0.4) && (iStunden==24)) || ((iAKW > 0.4) && (iStunden==8760))) {document.getElementById("BRD").innerHTML = "= " + strHelp + " <br><span style='color:red;';>Bei 40,68 Mio. Haushalten in der BRD entspricht das " + iAKW.replace(".", ",") + " AKWs (mittl. AKW mit 1400 MegaWatt).</span>"}
+if (((iAKW > 0.4) && (iStunden==24)) || ((iAKW > 0.4) && (iStunden==8760))) {document.getElementById("BRD").innerHTML = "= " + strHelp + " <br><span style='color:red;';>Bei 40,903 Mio. Haushalten (2022) in der BRD entspricht das " + iAKW.replace(".", ",") + " AKWs (mittl. AKW mit 1400 MegaWatt).</span>"}
 else
 {document.getElementById("BRD").innerHTML = strHelp; }
 		 
